@@ -43,7 +43,18 @@
 
 
 /* esercizio 5 */
+.ex-5-square {
+    transform: scale(100%, 100%);
+    transition: transform 1s;
+}
 
+.ex-5-square:hover {
+    transform: scale(200%, 200%);
+}
+
+.ex-5-square:active {
+    transform: scale(50%, 50%);
+}
 
 
 
