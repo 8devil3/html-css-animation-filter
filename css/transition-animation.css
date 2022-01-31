@@ -78,7 +78,16 @@
 
 
 /* esercizio 8 */
+.ex-8-img {
+    filter: saturate(1);
+    border-radius: 0;
+    transition: all 1s;
+}
 
+.ex-8-img:hover {
+    filter: saturate(0.4);
+    border-radius: 24px;
+}
 
 
 
