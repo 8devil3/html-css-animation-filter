@@ -13,13 +13,16 @@
 /* esercizio 2 */
 .ex-2-square:active {
     width: 100%;
-    transition: width 1s ease-out;
+    transition: width 1s;
 }
 
 
 
 /* esercizio 3 */
-
+.ex-3-square:hover  {
+    border-radius: 50%;
+    transition: border-radius 1s;
+}
 
 
 
