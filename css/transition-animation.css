@@ -59,8 +59,14 @@
 
 
 /* esercizio 6 */
+.ex-6-img {
+    filter: grayscale(0);
+    transition: filter 1s;
+}
 
-
+.ex-6-img:hover {
+    filter: grayscale(1);
+}
 
 
 /* esercizio 7 */
